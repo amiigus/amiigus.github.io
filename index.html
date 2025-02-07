@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <form class="Nome">
+        <p> Nome:
+            <input type="text" id="inNome"> 
+            <input type="submit" id="submitlogin" value="pronto">
+        </p>
+        <p> Senha:
+            <input type="password" id="inSenha">
+        </form>
+        <form class="cadastrar">
+            <p>Cadastrar-se:</p>
+          <p>  Nome:   
+            <input type="text" id="inNomec"> 
+            <input type="submit" id="prontoc" value="pronto">
+            <p>Senha:
+            <input type="password" id="inSenhac">
+        </p>
+        </form>
+    <div>
+
+    <script>
+        const frm = document.querySelector(".Nome");
+        const loginInput = document.getElementById("inNome");
+        const senhaInput = document.getElementById("inSenha");
+        const evento1 = document.getElementById("submitlogin");
+
+        const frm2 = document.querySelector(".cadastrar");
+        const loginInput2 = document.getElementById("inNomec");
+        const senhaInput2 = document.getElementById("inSenhac");
+        const evento2 = document.getElementById("prontoc")
+
+        const users = [
+            { username: 'murilo', password: 'dagostim' },
+            { username: 'lucas', password: 'fernandes' },
+            { username: 'roberto', password: 'carlos' }
+        ];
+
+        evento2.addEventListener("click", (e) => {
+            e.preventDefault();
+            newlogin = loginInput2.value
+            newpassword = senhaInput2.value
+            users.push({ username: newlogin, password: newpassword }) 
+            alert("tenta fazer login agora rapais")
+        });
+        evento1.addEventListener("click", (e) => {// o "=>" define que na esquerda '<' seja a função e a direita '>' seja o corpo da função 
+        // // o .find é para o primeiro elemento da lista array atende uma condição especifica basicalmente ele faz a função a cima em todos os elementos da lista caso de primeira n der :)
+            e.preventDefault();
+            const login = loginInput.value;
+            const senha = senhaInput.value;
+            
+            const user = users.find(user => user.username === login && user.password === senha);
+
+            if (user) {
+                alert("Bem-vindo!");
+                window.location.href = "https://www.youtube.com";
+            } else {
+                alert("Senha ou nome de usuário incorretos!");
+            }
+        });
+    </script>
+    </div>
+</body>
+</html>
