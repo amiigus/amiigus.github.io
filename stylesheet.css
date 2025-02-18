@@ -1,7 +1,5 @@
-@import "tailwindcss";
-.input {
-  color: black;
-}
-.body {
-  color: black;
+.flexix {
+  display: flex;
+  flex-diretion: column;
+  justify-conttent: center;
 }
