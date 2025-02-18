@@ -1,5 +1,5 @@
 @import "tailwindcss";
-input {
+.input {
   color: black;
 }
 .body {
