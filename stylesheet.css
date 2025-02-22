@@ -1,7 +1,12 @@
 .flexix {
   display: flex;
-  align-item: center;
-  justify-content: center;
+  flex-direction: column;
+}
+.item1 {
+  order: 1;
+}
+.item2 {
+  order: 2;
 }
 .container {
   display: flex;
