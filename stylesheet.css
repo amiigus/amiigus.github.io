@@ -20,6 +20,5 @@
             border-radius: 15px;
             margin: 4px 2px;
             background-color: #ef4a53;
-            text-decoration: none;
-            display: inline-block; /* Faz com que o bloco se ajuste ao tamanho do conteúdo */
-} /* carpet carpet carpet carpet carpet carpet carpet carpet check out i'm in the house, like carpet carpet carpet */
+            text-decoration: none 
+}
