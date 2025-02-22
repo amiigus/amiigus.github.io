@@ -8,17 +8,3 @@
 .item2 {
   order: 2;
 }
-.container {
-  display: flex;
-  justity-content: center;
-  align-items: center;
-}
-.botao {
-            border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
-            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
-            color: white;
-            border-radius: 15px;
-            margin: 4px 2px;
-            background-color: #ef4a53;
-            text-decoration: none 
-}
