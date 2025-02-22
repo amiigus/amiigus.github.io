@@ -3,3 +3,8 @@
   align-item: center;
   justify-content: center;
 }
+.botao {
+            border: 2px solid #000; /* Define a borda com 2px de espessura e cor preta */
+            padding: 10px; /* Adiciona um espaço interno de 10px */
+            display: inline-block; /* Faz com que o bloco se ajuste ao tamanho do conteúdo */
+} /* carpet carpet carpet carpet carpet carpet carpet carpet check out i'm in the house, like carpet carpet carpet */
