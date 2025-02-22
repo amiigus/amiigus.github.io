@@ -3,6 +3,11 @@
   align-item: center;
   justify-content: center;
 }
+.container {
+  display: flex;
+  justity-content: center;
+  align-items: center;
+}
 .botao {
             display: inline-block;
             border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
