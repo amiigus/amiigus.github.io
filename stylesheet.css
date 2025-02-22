@@ -9,7 +9,7 @@
   align-items: center;
 }
 .botao {
-            display: inline-block;
+            display: inline-block;         
             border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
             padding: 10px 20px; /* Adiciona um espaço interno de 10px */
             color: white;
