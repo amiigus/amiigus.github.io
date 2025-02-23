@@ -30,8 +30,8 @@ justify-content: center; /* Alinha horizontalmente */
 }
 .containertexto {
   display: flex;
-  flex-direction: column; /* Alinha horizontalmente */
-  align-items: center;    /* Alinha verticalmente */
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: start;    /* Alinha verticalmente */
   height: 5vh;          /* Altura total da viewport, opcional */
 }
 .texto {
