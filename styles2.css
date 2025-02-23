@@ -8,7 +8,7 @@ justify-content: center; /* Alinha horizontalmente */
             border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
             padding: 10px 20px; /* Adiciona um espaço interno de 10px */
             color: white;
-            border-radius: 15px;
+            border-radius: 20px;
             margin: 4px 2px;
             background-color: #ef4a53;
             text-decoration: none 
@@ -23,7 +23,7 @@ justify-content: center; /* Alinha horizontalmente */
             border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
             padding: 10px 20px; /* Adiciona um espaço interno de 10px */
             color: white;
-            border-radius: 15px; /* define quanto é redondu o bagulho */
+            border-radius: 20px; /* define quanto é redondu o bagulho */
             margin: 4px 2px;
             background-color: #ef4a53; /* cor do fundo */
             text-decoration: none /* tira a decoração e os bagui */
@@ -36,7 +36,7 @@ justify-content: center; /* Alinha horizontalmente */
 .texto {
     padding: 5px 20px;
     color: white;
-    border-radius: 15px;
+    border-radius: 50px;
     margin: 4px 2px;
     background-color: #00ff00;
     width: fit-content;
