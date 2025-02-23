@@ -30,16 +30,15 @@ justify-content: center; /* Alinha horizontalmente */
 }
 .containertexto {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
+  flex-direction: column; /* Alinha horizontalmente */
   align-items: center;    /* Alinha verticalmente */
   height: 5vh;          /* Altura total da viewport, opcional */
 }
 .texto {
-            border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
-            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
-            color: white; /* cor do texto */
-            border-radius: 15px;
-            margin: 4px 2px;
-            background-color: #00ff00;
-            width: fit-content;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 15px;
+    margin: 4px 2px;
+    background-color: #00ff00;
+    width: fit-content;
 }
