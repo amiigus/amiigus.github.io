@@ -17,7 +17,7 @@ justify-content: center; /* Alinha horizontalmente */
   display: flex;
   justify-content: center; /* Alinha horizontalmente */
   align-items: center;    /* Alinha verticalmente */
-  height: 5vh;          /* Altura total da viewport, opcional */
+  height: 10vh;          /* Altura total da viewport, opcional */
 }
 .botao2 {
             border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
