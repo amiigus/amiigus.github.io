@@ -13,3 +13,18 @@ justify-content: center; /* Alinha horizontalmente */
             background-color: #ef4a53;
             text-decoration: none 
 }
+.container2 {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center;    /* Alinha verticalmente */
+  height: 5vh;          /* Altura total da viewport, opcional */
+}
+.botao2 {
+            border: 2px solid #ef4a53; /* Define a borda com 2px de espessura e cor preta */
+            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
+            color: white;
+            border-radius: 15px;
+            margin: 4px 2px;
+            background-color: #ef4a53;
+            text-decoration: none 
+}
