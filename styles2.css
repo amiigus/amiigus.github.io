@@ -31,7 +31,7 @@ justify-content: center; /* Alinha horizontalmente */
 .containertexto {
   display: flex;
   justify-content: center; /* Alinha horizontalmente */
-  align-items: flex-start;    /* Alinha verticalmente */
+  align-items: center; /* Alinha verticalmente */
   height: 5vh;          /* Altura total da viewport, opcional */
 }
 .texto {
