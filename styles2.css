@@ -32,7 +32,6 @@ justify-content: center; /* Alinha horizontalmente */
   display: flex;
   justify-content: center; /* Alinha horizontalmente */
   align-items: center; /* Alinha verticalmente */
-  height: 5vh;          /* Altura total da viewport, opcional */
 }
 .texto {
     padding: 5px 20px;
