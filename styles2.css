@@ -41,4 +41,5 @@ justify-content: center; /* Alinha horizontalmente */
             border-radius: 15px;
             margin: 4px 2px;
             background-color: #00ff00;
+            width: fit-content;
 }
