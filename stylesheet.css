@@ -18,9 +18,9 @@
 }
 .imputext {
             display: inline-block
-            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
+            padding: 10px; /* Adiciona um espaço interno de 10px */
             color: white;
             border-radius: 6px; /* define quanto é redondu o bagulho */
             margin: 4px 2px;
-            background-color: #ef4a53; /* cor do fundo */
+            background-color: #000000; /* cor do fundo */
 }
