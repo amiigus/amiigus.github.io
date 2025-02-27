@@ -9,5 +9,11 @@
   order: 2;
 }
 .imputcolor {
-  display
+            display: flex
+            border: 2px solid #000000; /* Define a borda com 2px de espessura e cor preta */
+            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
+            color: white;
+            border-radius: 20px; /* define quanto é redondu o bagulho */
+            margin: 4px 2px;
+            background-color: #ef4a53; /* cor do fundo */
 }
