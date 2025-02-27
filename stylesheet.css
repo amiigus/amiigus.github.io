@@ -9,10 +9,18 @@
   order: 2;
 }
 .imputcolor {
-            display: flex
-            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
+            display: inline-block
+            padding: 5px; /* Adiciona um espaço interno de 10px */
             color: white;
             border-radius: 20px; /* define quanto é redondu o bagulho */
+            margin: 4px 2px;
+            background-color: #ef4a53; /* cor do fundo */
+}
+.imputext {
+            display: inline-block
+            padding: 10px 20px; /* Adiciona um espaço interno de 10px */
+            color: white;
+            border-radius: 6px; /* define quanto é redondu o bagulho */
             margin: 4px 2px;
             background-color: #ef4a53; /* cor do fundo */
 }
