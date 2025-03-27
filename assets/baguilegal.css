@@ -1,23 +1,23 @@
 @keyframes robetocarlos {
   0%{
-    widht:100;
-    heigth:100;
+    width:100;
+    height:100;
   }
   25%{
-    widht:250;
-    heigth:100;
+    width:250;
+    height:100;
   }
   50%{
-    widht:400;
+    width:400;
     heigth:200;
   }
   75%{
-   widht:600;
-    heigth:400;
+   width:600;
+    height:400;
   }
   100%{
-    widht:250;
-    heigth:100;
+    width:250;
+    height:100;
   }
 }
 .emojo {
