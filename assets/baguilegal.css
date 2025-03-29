@@ -28,3 +28,8 @@
     animation-iteration-count: infinite; 
     animation-timing-function: cubic-bezier(1, 0.23, 0.58, 1); 
 }
+.setabotao {
+display:flex;
+justify-contend: center;
+align-items: end;
+}
