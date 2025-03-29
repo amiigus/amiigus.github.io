@@ -28,6 +28,10 @@
     animation-iteration-count: infinite; 
     animation-timing-function: cubic-bezier(1, 0.23, 0.58, 1); 
 }
+body {
+   height:800px; 
+   width:700px;
+}
 .setabotao {
 display:flex;
 justify-contend: center;
