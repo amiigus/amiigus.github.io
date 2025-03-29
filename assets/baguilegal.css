@@ -33,7 +33,7 @@ body {
    width:700px;
 }
 .setabotao {
-display:flex;
-justify-contend: center;
-align-items: end;
+display: flex;
+justify-contend: end;
+align-items: center;
 }
